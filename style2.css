@@ -1,0 +1,79 @@
+
+
+.box {
+	width: 600px;
+	height: 300px;
+	padding: 20px;
+	border: 5px;
+	color: darkred;
+	margin: 15px;
+	background-color: sandybrown;	
+}
+.icon {
+	font-size: 24px;
+	color: black;
+	margin: 10px;
+}
+
+a:link{
+	color: darkred;
+}
+a:hover {
+	color: beige;
+}
+a:visited {
+	color: green;
+}
+a:active {
+	color: lightgray;
+}
+ul {
+	background: orangered;
+	color: darkred;
+	padding: 20px;
+}
+
+ul li {
+	background-color: beige;
+	color: ;
+	margin: 5px;
+}
+
+p {
+	border: 5px solid lightgray;
+	outline-style: groove;
+	outline-color: pink;
+	outline-width: 10px;
+	outline-offset: 3px;
+	text-indent: 32px;
+
+}
+
+h1 {
+	background-color: sandybrown;
+	color: black;
+	/*untuk nambahin gaya kaya: coret huruf, underline, dll. "wavy* untuk buat garis keriting, bisa di tengah huruf atau di bahawa*/
+	text-decoration: underline wavy blue ;
+	text-shadow: 2px 2px 5px yellow;
+	text-align: center;
+}
+
+table, th, td {
+	border: 2px solid;
+}
+table {
+	width: 30%;
+	border-collapse: collapse;
+}
+tr :hover {background-color: }
+th {
+	height: 50px;
+	text-align: center;
+	background-color: yellow;
+
+}
+td {
+	height: 30px;
+	text-align: center;
+	vertical-align: bottom;
+}
